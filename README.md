@@ -8,8 +8,8 @@ You can quick-start this image by running:
 
 ```
 mkdir -p ~/5etools-docker/htdocs && cd ~/5etools-docker
-curl -o docker-compose.yml https://raw.githubusercontent.com/Jafner/5etools-docker/main/docker-compose.yml
-docker-compose up -d && docker logs -f 5etools-docker
+curl -o docker-compose.yml https://raw.githubusercontent.com/Duskotech/5etools-docker/main/docker-compose.yml
+podman-compose up -d && podman logs -f 5etools-docker
 ```
 
 Then give the container a few minutes to come online (it takes a while to pull the Github repository) and it will be accessible at `localhost:8080`.
